@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>东风Honda-哥瑞</title>
+    <link rel="stylesheet" href="东风honda-哥瑞（greiz）_files/css/reset.css">
+    <link rel="stylesheet" href="东风honda-哥瑞（greiz）_files/css/index.css">
+    <style>
+        #funtec {
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            width: 159px;
+            height: 56px;
+            overflow: hidden;
+            z-index: 999;
+        }
+
+        .funtec_btn {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        #funtec .slideBox {
+            position: relative;
+            width: 400px;
+            height: 153px;
+            overflow: hidden;
+            left: 0;
+            top: 0;
+            opacity: 0
+        }
+
+        #funtec .slideBox ul.items {
+            position: absolute;
+            float: left;
+        }
+
+        #funtec .slideBox ul.items li {
+            float: left;
+        }
+
+        #funtec .slideBox ul.items li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            float: left;
+            line-height: normal !important;
+        }
+
+        #funtec .slideBox ul.items li a img {
+            display: block;
+            width: 100%
+        }
+
+        .fr {
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 头部导航 -->
+    <div class="top-menu-box menu-one d-hide">
+        <div class="top-menu-container">
+            <div class="top-menu">
+                <a class="top-menu-logo-left">
+                    <img src="东风honda-哥瑞（greiz）_files/images/logo1.png">
+                </a>
+                <div class="top-menu-center clearfix">
+                    <a href="javascript:">竞瑞</a>
+                    <a href="janascript:">哥瑞</a>
+                    <a href="javascript:">思域</a>
+                    <a href="javascript:">思铂睿</a>
+                    <a href="javascript:">CR-V</a>
+                    <a href="javascript:">XR-V</a>
+                    <a href="javascript:">杰德</a>
+                    <a href="javascript:">艾力绅</a>
+                    <a href="javascript:" class="top-menu-interval">
+                        <img src="东风honda-哥瑞（greiz）_files/images/menu_line.png">
+                    </a>
+                    <a href="javascript:">思铭</a>
+                    <a href="javascript:;" class="menu-more">
+                        <img src="东风honda-哥瑞（greiz）_files/images/menu_more.png">
+                    </a>
+                    <ul class="menu-more-son" style="display: none;">
+                        <li><a href="javascript:">企业网站</a></li>
+                        <li><a href="javascript:">产品中心</a></li>
+                        <li><a href="javascript:">Stay ahead</a></li>
+                        <li><a href="javascript:">FUNTEC</a></li>
+                        <li><a href="javascript:">本田中国</a></li>
+                    </ul>
+                </div>
+                <a class="top-menu-logo-right">
+                    <img src="东风honda-哥瑞（greiz）_files/images/logo2.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--// 头部导航 -->
+    <!-- 哥瑞导航 -->
+    <div style="top: 0px; visibility: visible;" class="cti-top-menu-second">
+        <div class="cti-top-menu-wrap">
+            <dl class="clearfix">
+                <dt>
+                    <a href="#">
+                        <img src="东风honda-哥瑞（greiz）_files/images/grzia.png">
+                    </a>
+                </dt>
+                <dd class="cti-second-nav-anchor"><a href="javascript:;">车型亮点<span></span></a></dd>
+                <dd class="cti-second-nav-anchor"><a href="javascript:;">车型配置<span></span></a></dd>
+                <dd class="cti-second-nav-anchor"><a href="javascript:;">最新资讯<span></span></a></dd>
+                <dd class="cti-second-nav-anchor d-active"><a href="javascript:;">经销商查询<span></span></a></dd>
+                <dt class="cti-top-menu-testdrive"><a href="javascript:;">预约试驾</a></dt>
+            </dl>
+        </div>
+    </div>
+    <!--// 哥瑞导航 -->
+    <!-- 右侧固定小导航 -->
+    <div class="cti-right-fixed-nav">
+        <ul>
+            <li onclick="testdrive.showtestdrive(1)">
+                <label class="iconfont"></label>
+                <span></span>
+                <label class="d-text">报价咨询</label>
+            </li>
+            <li onclick="testdrive.showtestdrive(2)">
+                <label class="iconfont"></label>
+                <span></span>
+                <label class="d-text">型录索取</label>
+            </li>
+            <li onclick="window.counter.showcounter();">
+                <label class="iconfont"></label>
+                <span></span>
+                <label class="d-text">车贷计算器</label>
+            </li>
+            <li class="d-active">
+                <label class="iconfont"></label>
+                <span></span>
+                <label class="d-text">经销商查询</label>
+            </li>
+            <li id="cti-right-nav-testdrive">
+                <label class="iconfont"></label>
+                <span></span>
+                <label class="d-text">预约试驾</label>
+            </li>
+        </ul>
+    </div>
+    <!--// 右侧固定小导航 -->
+    <!-- 下拉小按钮 -->
+    <div class="cti-common-drop-down">
+        <img src="东风honda-哥瑞（greiz）_files/images/scroll.png">
+    </div>
+    <!--// 下拉小按钮 -->
+    <!-- 首页KV -->
+    <div class="cti-index-kv-wrap">
+        <img class="cti-index-kv-img" src="东风honda-哥瑞（greiz）_files/images/bg.jpg" alt="kv">
+        <!-- 悬浮窗 -->
+        <div class="d-slide-1-widget d-amt-rotateUnfoldLeft">
+            <div class="d-slide-1-widget-price">
+                <span>
+                    <!--官方指导价-->
+                </span>
+                <h1>7.98
+                    <span>&nbsp;万元起</span>
+                </h1>
+            </div>
+            <div class="d-slide-1-link">
+                <div class="d-slide-1-link-1 test-drive-link" onclick="testdrive.showtestdrive()">
+                    <span id="homedrive">预约试驾</span>
+                </div>
+                <div class="d-slide-1-link-2" onclick="topbar.gopage(1)">
+                    <span>参数配置</span>
+                </div>
+                <div class="d-slide-1-link-3" onclick="topbar.gopage(3)">
+                    <span>经销商查询</span>
+                </div>
+                <div class="d-slide-1-link-4">
+                    <span>操作指南</span>
+                    <a href="javascript:" target="_blank" class="zhinan"></a>
+                </div>
+                <div class="d-slide-1-link-4">
+                    <span>驾悦体验营</span>
+                    <a href="javascript:" target="_blank" class="zhinan"></a>
+                </div>
+                <div class="d-slide-1-link-5" style="color:#e6ae51;">
+                    <span>尊享购置税减半</span>
+                </div>
+            </div>
+            <div class="d-slide-1-video" data-gotopage="11">
+                <img src="东风honda-哥瑞（greiz）_files/images/video_bg.jpg" alt="视频播放窗背景" class="d-slide-1-video-bg">
+                <div class="d-slide-1-video-masking"></div>
+                <div class="d-slide-1-video-button">
+                    <img src="东风honda-哥瑞（greiz）_files/images/video-play.png">
+                </div>
+            </div>
+            <div class="d-slide-1-shear">
+                <a href=class="weibo"></a>
+                <a href=class="qq"></a>
+                <a href=class="douban"></a>
+                <div class="clear"></div>
+            </div>
+            <div style="display: block;" class="d-slide-1-code">
+                <img style="display: none;" src="东风honda-哥瑞（greiz）_files/images/qrcode.png">
+                <div style="background-position: 0px -18px;" class="d-slide-1-code-txt"></div>
+            </div>
+            <img class="d-slide-1-qrcode" src="东风honda-哥瑞（greiz）_files/images/qrcode.png">
+            <div style="z-index: 9999; margin-top: 8px; background: transparent none repeat scroll 0% 0%; padding: 0px;" class="d-slide-1-app">
+                <img style="display: none;" src="东风honda-哥瑞（greiz）_files/images/qrapp1.png" class="qrapp">
+                <img style="display: none;" src="东风honda-哥瑞（greiz）_files/images/qrapp.png" class="qrapp1">
+                <div style="display: none;" class="mpsystem">
+                    <a style="opacity: 0.3;" href="#" class="ios"></a>|
+                    <a style="opacity: 1;" href="#" class="android"></a>
+                </div>
+                <div style="background-position: 0px -18px;" class="d-slide-1-app-txt"></div>
+            </div>
+            <img class="d-slide-1-qrapp" src="东风honda-哥瑞（greiz）_files/images/qrapp.png">
+            <div class="clear"></div>
+        </div>
+        <!-- pad 视频播放按钮 -->
+        <div class="cti-index-pad-price">
+            <dl class="clearfix">
+                <dt>
+                    <h6>
+                        <!--官方指导价-->
+                    </h6>
+                    <br>
+                    <h2 style="position: relative;top: -6px;">7.98
+                        <span>&nbsp;万元起</span>
+                    </h2>
+                </dt>
+                <dd>
+                    <a href="javascript:" class="cti-index-pad-btnvideo"></a>
+                </dd>
+            </dl>
+        </div>
+        <!--// pad 视频播放按钮 -->
+        <!--// 悬浮窗 -->
+    </div>
+    <!--// 首页KV -->
+    <!-- 颜色切换 -->
+    <div class="cti-colour-wrap">
+        <div class="cti-colour-toggle-btn clearfix">
+            <ul class="clearfix">
+                <li class="cti-coulour-red">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_01.png">
+                        <label>绚晶红</label>
+                    </span>
+                </li>
+                <li class="cti-coulour-white">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_02.png">
+                        <label>塔夫绸白</label>
+                    </span>
+                </li>
+                <li class="cti-coulour-goldsilver d-active">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_03.png">
+                        <label>炫金银</label>
+                    </span>
+                </li>
+                <li class="cti-coulour-brightsilver">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_04.png">
+                        <label>圣辉银</label>
+                    </span>
+                </li>
+                <li class="cti-coulour-purple">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_05.png">
+                        <label>星宿紫</label>
+                    </span>
+                </li>
+                <li class="cti-coulour-black">
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/color_06.png">
+                        <label>彩晶黑</label>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="cti-colour-car-listwrap">
+            <div style="width: 944.3px; height: 401.328px;" class="cti-colour-car-img d-active">
+                <img class="" src="东风honda-哥瑞（greiz）_files/images/car_01.png" alt="">
+                <img src="东风honda-哥瑞（greiz）_files/images/car_02.png" alt="">
+                <img class="d-show" src="东风honda-哥瑞（greiz）_files/images/car_03.png" alt="">
+                <img class="" src="东风honda-哥瑞（greiz）_files/images/car_04.png" alt="">
+                <img src="东风honda-哥瑞（greiz）_files/images/car_05.png" alt="">
+                <img src="东风honda-哥瑞（greiz）_files/images/car_06.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--// 颜色切换 -->
+    <!-- 亮点 -->
+    <div class="cti-lightspot-wrap clearfix">
+        <div class="cti-lightspot-item">
+            <img src="东风honda-哥瑞（greiz）_files/images/highlight_01.png" alt="">
+            <div class="cti-lightspot-mask">
+                <h3>越级空间</h3>
+                <div class="cti-linghtspot-drop-down">
+                    <img src="东风honda-哥瑞（greiz）_files/images/down_icon.png">
+                </div>
+            </div>
+        </div>
+        <div class="cti-lightspot-item">
+            <img src="东风honda-哥瑞（greiz）_files/images/highlight_02.png" alt="">
+            <div class="cti-lightspot-mask">
+                <h3>炫酷设计</h3>
+                <div class="cti-linghtspot-drop-down">
+                    <img src="东风honda-哥瑞（greiz）_files/images/down_icon.png">
+                </div>
+            </div>
+        </div>
+        <div class="cti-lightspot-item">
+            <img src="东风honda-哥瑞（greiz）_files/images/highlight_04.png" alt="">
+            <div class="cti-lightspot-mask">
+                <h3>动力领先</h3>
+                <div class="cti-linghtspot-drop-down">
+                    <img src="东风honda-哥瑞（greiz）_files/images/down_icon.png">
+                </div>
+            </div>
+        </div>
+        <div class="cti-lightspot-item">
+            <img src="东风honda-哥瑞（greiz）_files/images/highlight_03.png" alt="">
+            <div class="cti-lightspot-mask">
+                <h3>智能科技</h3>
+                <div class="cti-linghtspot-drop-down">
+                    <img src="东风honda-哥瑞（greiz）_files/images/down_icon.png">
+                </div>
+            </div>
+        </div>
+        <div class="cti-lightspot-item">
+            <img src="东风honda-哥瑞（greiz）_files/images/highlight_05.png" alt="">
+            <div class="cti-lightspot-mask">
+                <h3>极致安全</h3>
+                <div class="cti-linghtspot-drop-down">
+                    <img src="东风honda-哥瑞（greiz）_files/images/down_icon.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 亮点 -->
+    <!-- 亮点弹层容器 -->
+    <div class="cti-lightspot-alert-wrap">
+        <!-- 越级空间 -->
+        <div class="cti-lightspot-item-max cti-lightspot-space">
+            <div style="width: 1349px; height: 576px; overflow: hidden;" class="scroll-stage-container">
+                <div style="height: 667.474px; width: 1349px; left: 0px; top: -45.737px;" class="scroll-stage-wrapper">
+                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_bg.jpg">
+                    <div class="scroll-stage-wrapper-shadow"></div>
+                </div>
+                <div class="cti-linghtspot-container">
+                    <!-- 卖点大图 -->
+                    <div class="cti-lightspot-item-view">
+                        <!-- 关闭图标 -->
+                        <span class="cti-lightspot-item-close clearfix">
+                            <img src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+                        </span>
+                        <!--// 关闭图标 -->
+                        <ul class="cti-lightspot-maxpic">
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_b_01.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_b_02.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_b_03.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_b_04.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// 卖点大图 -->
+                    <!-- 卖点选项 -->
+                    <div class="cti-lightspot-item-sellings">
+                        <div class="cti-lightspot-item-title">越级空间 大显豪情</div>
+                        <div class="cti-lightspot-item-sellings-tab">
+                            <ul class="clearfix">
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_s_01.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_s_02.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_s_03.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_01_s_04.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 卖点选项 -->
+                </div>
+            </div>
+        </div>
+        <!--// 越级空间 -->
+        <!-- 炫酷设计 -->
+        <div class="cti-lightspot-item-max cti-lightspot-design">
+            <div style="width: 1349px; height: 576px; overflow: hidden;" class="scroll-stage-container">
+                <div style="height: 667.474px; width: 1349px; left: 0px; top: -45.737px;" class="scroll-stage-wrapper">
+                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_bg.jpg">
+                    <div class="scroll-stage-wrapper-shadow"></div>
+                </div>
+                <div class="cti-linghtspot-container">
+                    <!-- 卖点大图 -->
+                    <div class="cti-lightspot-item-view">
+                        <!-- 关闭图标 -->
+                        <span class="cti-lightspot-item-close clearfix">
+                            <img src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+                        </span>
+                        <!--// 关闭图标 -->
+                        <ul class="cti-lightspot-maxpic">
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_b_01.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_b_02.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_b_03.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_b_04.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_b_05.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// 卖点大图 -->
+                    <!-- 卖点选项 -->
+                    <div class="cti-lightspot-item-sellings cti-lightspot-item-sellings-design">
+                        <div class="cti-lightspot-item-title">炫酷设计 动感豪帅</div>
+                        <div class="cti-lightspot-item-sellings-tab">
+                            <ul class="clearfix">
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_s_01.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_s_02.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_s_04.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_s_03.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_02_s_05.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 卖点选项 -->
+                </div>
+            </div>
+        </div>
+        <!--// 炫酷设计 -->
+        <!-- 动力领先 -->
+        <div class="cti-lightspot-item-max cti-lightspot-power">
+            <div style="width: 1349px; height: 576px; overflow: hidden;" class="scroll-stage-container">
+                <div style="height: 667.474px; width: 1349px; left: 0px; top: -45.737px;" class="scroll-stage-wrapper">
+                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_03_bg.jpg">
+                    <div class="scroll-stage-wrapper-shadow"></div>
+                </div>
+                <div class="cti-linghtspot-container">
+                    <!-- 卖点大图 -->
+                    <div class="cti-lightspot-item-view cti-lightspot-item-view-power">
+                        <!-- 关闭图标 -->
+                        <span class="cti-lightspot-item-close clearfix">
+                            <img src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+                        </span>
+                    </div>
+                    <!--// 卖点大图 -->
+                    <!-- 卖点选项 -->
+                    <div class="cti-lightspot-item-sellings">
+                        <div class="cti-lightspot-item-title">卓越动力 豪劲进取</div>
+                        <div class="cti-lightspot-item-sellings-tab cti-lightspot-item-sellings-tab-power">
+                            <ul class="clearfix">
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_03_s_03.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_03_s_01.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_03_s_02.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 卖点选项 -->
+                </div>
+            </div>
+        </div>
+        <!--// 动力领先 -->
+        <!-- 智能科技 -->
+        <div class="cti-lightspot-item-max cti-lightspot-capacity">
+            <div style="width: 1349px; height: 576px; overflow: hidden;" class="scroll-stage-container">
+                <div style="height: 667.474px; width: 1349px; left: 0px; top: -45.737px;" class="scroll-stage-wrapper">
+                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_04_bg.jpg">
+                    <div class="scroll-stage-wrapper-shadow"></div>
+                </div>
+                <div class="cti-linghtspot-container">
+                    <!-- 卖点大图 -->
+                    <div class="cti-lightspot-item-view">
+                        <!-- 关闭图标 -->
+                        <span class="cti-lightspot-item-close clearfix">
+                            <img src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+                        </span>
+                        <!--// 关闭图标 -->
+                        <ul class="cti-lightspot-maxpic cti-lightspot-maxpic-capacity">
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_04_b_01.png" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_04_b_02.png" alt="">
+                            </li>
+                            <li>
+
+                            </li>
+                            <!-- add zwy -->
+                        </ul>
+                    </div>
+                    <!--// 卖点大图 -->
+                    <!-- 卖点选项 -->
+                    <div class="cti-lightspot-item-sellings">
+                        <div class="cti-lightspot-item-title">智能科技 豪享未来</div>
+                        <div class="cti-lightspot-item-sellings-tab cti-lightspot-item-sellings-tab-capacity">
+                            <ul class="clearfix">
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_04_s_01.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_04_s_02.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                             -->
+                                <!-- zwy add -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 卖点选项 -->
+                </div>
+            </div>
+        </div>
+        <!--// 智能科技 -->
+        <!-- 极致安全 -->
+        <div class="cti-lightspot-item-max cti-lightspot-safety">
+            <div style="width: 1349px; height: 576px; overflow: hidden;" class="scroll-stage-container">
+                <div style="height: 667.474px; width: 1349px; left: 0px; top: -45.737px;" class="scroll-stage-wrapper">
+                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_bg.jpg">
+                    <div class="scroll-stage-wrapper-shadow"></div>
+                </div>
+                <div class="cti-linghtspot-container">
+                    <!-- 卖点大图 -->
+                    <div class="cti-lightspot-item-view">
+                        <!-- 关闭图标 -->
+                        <span class="cti-lightspot-item-close clearfix">
+                            <img src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+                        </span>
+                        <!--// 关闭图标 -->
+                        <ul class="cti-lightspot-maxpic">
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_01.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_02.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_03.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_04.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_05.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_b_06.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <!--// 卖点大图 -->
+                    <!-- 卖点选项 -->
+                    <div class="cti-lightspot-item-sellings">
+                        <div class="cti-lightspot-item-title">安全保障 畅想豪迈</div>
+                        <div class="cti-lightspot-item-sellings-tab">
+                            <ul id="cti_lightspot_safety_sellinglist" class="clearfix cti-lightspot-safety-sellinglist">
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_01.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_02.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_03.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li>
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_04.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li class="d-hide">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_05.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                                <li class="d-hide">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/highlight_05_s_06.jpg" alt="">
+                                    <span class="cti-lightsopt-imgmask"></span>
+                                </li>
+                            </ul>
+                            <div class="cti-lightspot-item-sellings-tab-arrows">
+                                <a href="javascript:;">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/arrow_left.png">
+                                </a>
+                                <a href="javascript:;">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/arrow_right.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 卖点选项 -->
+                </div>
+            </div>
+        </div>
+        <!--// 极致安全 -->
+    </div>
+    <!-- 亮点弹层容器 -->
+    <!-- 背景容器 -->
+    <div class="cti-basebg-wrapper">
+        <!-- 参数配置表 -->
+        <div class="cti-config-wrap">
+            <div class="cti-config-title">
+                <h1>车型配置</h1>
+                <h6>SPECIFICATION</h6>
+            </div>
+            <!-- 配置表列表 -->
+            <div class="cti-config-list">
+                <!-- 切换箭头 -->
+                <div class="cti-config-arrow-wrap clearfix">
+                    <a href="javascript:;" class="cti-config-arr-left">
+                        <img src="东风honda-哥瑞（greiz）_files/images/arrow_s_left.png">
+                    </a>
+                    <a href="javascript:;" class="cti-config-arr-right">
+                        <img src="东风honda-哥瑞（greiz）_files/images/arrow_s_right.png">
+                    </a>
+                </div>
+                <!--// 切换箭头 -->
+                <div id="cti_config_swiper" class="swiper-container cti-config-swiepr">
+                    <div style="padding-right: 333.333px; width: 1666.67px; height: 460px;" class="swiper-wrapper">
+                        <div style="width: 333.333px; height: 460px;" class="swiper-slide swiper-slide-visible swiper-slide-active">
+                            <dl>
+                                <dt>
+                                    <!-- <h2>LXI-MT</h2> -->
+                                    <h5>经典版手动档</h5>
+                                    <h1>7.98
+                                        <span>&nbsp;万元</span>
+                                    </h1>
+                                </dt>
+                                <dd>卤素前大灯</dd>
+                                <dd>LED高位刹车灯</dd>
+                                <dd>车内防眩目后视镜</dd>
+                                <dd>后挡风玻璃加热功能</dd>
+                                <dd>手动折叠电动调节外后视镜</dd>
+                                <dd>防盗报警系统</dd>
+                                <dt class="cti-config-btn"><a href="javascript:;" data-href="configuration1.html" class="cti-config-link">了解详细配置</a><a class="cti-config-compare" href="javascript:;">对比<br>车型</a></dt>
+
+                            </dl>
+                        </div>
+                        <div style="width: 333.333px; height: 460px;" class="swiper-slide swiper-slide-visible">
+                            <dl>
+                                <dt>
+                                    <!-- <h2>LXI CVT</h2> -->
+                                    <h5>经典版自动档</h5>
+                                    <h1>8.98
+                                        <span>&nbsp;万元</span>
+                                    </h1>
+                                </dt>
+                                <dd>LED高位刹车灯</dd>
+                                <dd>车内防炫目后视镜</dd>
+                                <dd>后挡风玻璃加热功能</dd>
+                                <dd>ECON 智能化绿色节能辅助系统</dd>
+                                <dd>手动折叠电动调节外后视镜</dd>
+                                <dd>防盗报警系统</dd>
+                                <dt class="cti-config-btn"><a href="javascript:;" data-href="configuration2.html" class="cti-config-link">了解详细配置</a><a class="cti-config-compare" href="javascript:;">对比<br>车型</a></dt>
+
+                            </dl>
+                        </div>
+                        <div style="width: 333.333px; height: 460px;" class="swiper-slide swiper-slide-visible">
+                            <dl>
+                                <dt>
+                                    <!-- <h2>EXI-</h2> -->
+                                    <h5>舒适版</h5>
+                                    <h1>9.98
+                                        <span>&nbsp;万元</span>
+                                    </h1>
+                                </dt>
+                                <dd>LED高位刹车灯</dd>
+                                <dd>车内防炫目后视镜
+                                </dd>
+                                <dd>后挡风玻璃加热功能</dd>
+                                <dd>ECON 智能化绿色节能辅助系统</dd>
+                                <dd>USB 接口（2处）</dd>
+                                <dd>防盗报警系统</dd>
+                                <dt class="cti-config-btn"><a href="javascript:;" data-href="configuration3.html" class="cti-config-link">了解详细配置</a><a class="cti-config-compare" href="javascript:;">对比<br>车型</a></dt>
+
+                            </dl>
+                        </div>
+                        <div style="width: 333.333px; height: 460px;" class="swiper-slide">
+                            <dl>
+                                <dt>
+                                    <!-- <h2>EXI</h2> -->
+                                    <h5>风尚版</h5>
+                                    <h1>10.68
+                                        <span>&nbsp;万元</span>
+                                    </h1>
+                                </dt>
+                                <dd>电动天窗</dd>
+                                <dd>车内防炫目后视镜</dd>
+                                <dd>后挡风玻璃加热功能</dd>
+                                <dd>ECON 智能化绿色节能辅助系统</dd>
+                                <dd>USB 接口（2处）</dd>
+                                <dd>防盗报警系统</dd>
+                                <dt class="cti-config-btn"><a href="javascript:;" data-href="configuration4.html" class="cti-config-link">了解详细配置</a><a class="cti-config-compare" href="javascript:;">对比<br>车型</a></dt>
+
+                            </dl>
+                        </div>
+                        <div style="width: 333.333px; height: 460px;" class="swiper-slide">
+                            <dl>
+                                <dt>
+                                    <!-- <h2>VTI</h2> -->
+                                    <h5>豪华版</h5>
+                                    <h1>11.98
+                                        <span>&nbsp;万元</span>
+                                    </h1>
+                                </dt>
+                                <dd>电动天窗</dd>
+                                <dd>16英寸轮毂</dd>
+                                <dd>智能进入系统（智能钥匙+一键启动）</dd>
+                                <dd>ECON 智能化绿色节能辅助系统</dd>
+                                <dd>可视化倒车系统（DA显示）</dd>
+                                <dd>7英寸智能屏互联系统（DA)</dd>
+                                <dt class="cti-config-btn"><a href="javascript:;" data-href="configuration5.html" class="cti-config-link">了解详细配置</a><a class="cti-config-compare" href="javascript:;">对比<br>车型</a></dt>
+
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cti-config-counter">
+                <h1>轻松信贷快捷方便，赶快来算一下吧！</h1>
+                <div class="cti-config-counter-btn">
+                    <img src="东风honda-哥瑞（greiz）_files/images/calculator_icon.png">信贷费用计算器
+                    <span>
+                        <img src="东风honda-哥瑞（greiz）_files/images/forward.png">
+                    </span>
+                </div>
+            </div>
+
+            </div>
+        <!--// 参数配置表 -->
+        <!-- 最新资讯 -->
+        <div class="cti-news-wrap">
+            <div class="cti-news-head">
+                <div class="cti-news-title">
+                    <h1>最新资讯</h1>
+                    <h6>LATEST NEWS</h6>
+                </div>
+                <div class="cti-news-tab clearfix">
+                    <a class="d-active" href="javascript:;">全部新闻</a>
+                    <a href="javascript:">新浪微博</a>
+                </div>
+            </div>
+            <div class="cti-news-list">
+                <div id="cti-news-swiper" class="swiper-container">
+                    <div style="width: 1170px; transition-duration: 0s; transform: translate3d(0px, 0px, 0px); height: 468px;" class="swiper-wrapper">
+                        <div style="width: 1170px; height: 468px;" class="swiper-slide swiper-slide-visible swiper-slide-active">
+                            <div class="cti-row clearfix">
+                                <div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic20160222.jpg" alt="再不买就后悔了！购置税减半速速选哥瑞">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a target="_blank" href="javascript:">查看详情</a>
+                                            <label>再不买就后悔了！购置税减半速速选哥瑞
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic201602221.jpg" alt="2016年的美好，从拥有哥瑞（GREIZ）开始">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a target="_blank" href="javascript:">查看详情</a>
+                                            <label>2016年的美好，从拥有哥瑞（GREIZ）开始
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic_03.jpg" alt="喜迎新成员——东风Honda哥瑞豪情上市售7.98万-11.98万">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a target="_blank" href="javascript:">查看详情</a>
+                                            <label>喜迎新成员——东风Honda哥瑞豪情上市 售7.98万-11.98万
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic_08.jpg" alt="胜售7.98万——11.98万，东风Honda哥瑞（GREIZ）豪气来袭">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a target="_blank" href="javascript:">查看详情</a>
+                                            <label>售7.98万——11.98万，东风Honda哥瑞（GREIZ）豪气来袭</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic_04.jpg" alt="超大彩蛋！东风Honda哥瑞全新概念车豪情登场！">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a href="javascript:">查看详情</a>
+                                            <label>品牌之夜 120″映像</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cti-news-item">
+                                    <img src="东风honda-哥瑞（greiz）_files/images/pic_09.jpg" alt="哥瑞产品视频">
+                                    <div class="cti-news-mask">
+                                        <div class="cti-news-mask-ctn">
+                                            <a href="javascript:">查看详情</a>
+                                            <label>哥瑞产品视频</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination cti-news-pagination"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"><label></label></span></div>
+            </div>
+        </div>
+        <!--// 最新资讯 -->
+        <!-- 经销商查询 -->
+        <div class="cti-dealerquery-wrap">
+            <div class="cti-dealerquery-bg">
+                <div class="cti-dealerquery-title">
+                    <h1>经销商查询</h1>
+                    <h6>DEALER LOCATOR</h6>
+                </div>
+                <!-- 地图容器 -->
+                <div class="cti-dealerquery-container">
+                    <div class="jing w clearfix">
+
+                        <div class="ditu">
+                            <div class="lditu">
+                                <a href="javascript:"><img src="东风honda-哥瑞（greiz）_files/images/M15ABR40){PXQ$I]IK$VQ2S.jpg"></a>
+                            </div>
+                        </div>
+                        <!--右下拉列表-->
+                        <div class="daxiala">
+                            <div class="xiala">
+                                <select name="select" class="xiabiao">
+                                    <option value="请选择省份">请选择省份</option>
+                                    <option value="北京">北京</option>
+                                    <option value="上海">上海</option>
+                                    <option value="广州">广州</option>
+                                    <option value="深圳">深圳</option>
+                                    <option value="哈尔滨">哈尔滨</option>
+                                    <option value="齐齐哈尔">齐齐哈尔</option>
+                                    <option value="天津">天津</option>
+                                    <option value="黑龙江">黑龙江</option>
+                                    <option value="大东北">大东北</option>
+                                </select>
+                                <select name="select" class="xx">
+                                    <option value="请选择城市">请选择城市</option>
+                                    <option value="北京">北京</option>
+                                    <option value="上海">上海</option>
+                                    <option value="广州">广州</option>
+                                    <option value="深圳">深圳</option>
+                                    <option value="哈尔滨">哈尔滨</option>
+                                    <option value="齐齐哈尔">齐齐哈尔</option>
+                                    <option value="天津">天津</option>
+                                    <option value="黑龙江">黑龙江</option>
+                                    <option value="大东北">大东北</option>
+                                </select>
+                            </div>
+                            <!-- 下面文字部分-->
+                            <div class="fuwu">
+                                <h3 class="hh">东风本田汽车鑫伯龙特约<br>销售服务站</h3>
+                                <a href="javascript:"><img src="东风honda-哥瑞（greiz）_files/images/icon_0.png" alt="" class="aa"/></a>
+                                <p>北京市丰台区西局西街298<br>号</p>
+                                <p>销售热线：010-51112288</p>
+                                <p>售后热线：010-51112399</p>
+                                <h3 class="hh">东风本田汽车国机隆盛特<br>约销售服务店</h3>
+                                <a href="javascript:"><img src="东风honda-哥瑞（greiz）_files/images/icon_1.png" alt="" class="bb"/></a>
+                                <p>北京市海淀区西北旺镇百旺<br>绿谷汽车园</p>
+                                <p>销售热线：010-82402699</p>
+                                <p>售后热线：010-82402599</p>
+
+                            </div>
+                            <div class="dayuan">
+                                <a href="javascript:"><span class="xiaoyuan">1</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">2</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">3</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">4</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">5</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">6</span></a>
+                                <a href="javascript:"><span class="xiaoyuan">7</span></a>
+
+                            </div>
+                </div>
+                <!--// 地图容器 -->
+                <!-- 底部 -->
+                <div class="cti-footer-wrap">
+                    <div class="cti-footer-link-ctn">
+                        <ul>
+                            <li><a target="_blank" href="javascript:">产品中心</a>
+                                <span class="d-line">|</span>
+                                <a target="_blank" href="javascript:">企业网站</a>
+                                <span class="d-line">|</span>
+                                <a target="_blank" href="javascript:">免责声明</a>
+                                <span class="d-line">|</span>
+                                <a target="_blank" href="javascript:">联系我们</a></li>
+                            <li>东风本田汽车有限公司 京ICP备05029197号-52</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// 底部 -->
+            </div>
+        </div>
+        <!-- 回到顶部按钮 -->
+        <a href="#" class="cti-btn-goto">
+            <img src="东风honda-哥瑞（greiz）_files/images/up.png">
+        </a>
+        <!-- 回到顶部按钮 -->
+    </div>
+    <!-- 预约试驾 -->
+    <div class="cti-testdrive-wrap">
+        <div class="cti-testdrive-content">
+            <img class="cti-testdrive-close" src="东风honda-哥瑞（greiz）_files/images/common_close.png">
+            <div class="cti-testdrive-form">
+                <form action="#" id="cti_testdrive_forms">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <h1>
+                                        <span>预约试驾</span>
+                                        <span>报价咨询</span>
+                                        <span>型录索取</span>
+                                    </h1>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody><tr>
+                            <td>姓名：</td>
+                            <td>
+                                <input id="cti-drive-name" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td>
+                                <select id="cti-drive-sex">
+                                    <option selected="selected" value="男">男</option>
+                                    <option value="女">女</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>手机号：</td>
+                            <td>
+                                <input id="cti-drive-phone" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>选择省份：</td>
+                            <td>
+                                <select name="" id="cti-drive-provinces">
+                                    <option selected="selected">请选择</option>
+                                    <option value="">﻿北京</option>
+                                    <option value="">上海</option><option value="42">天津</option>
+                                    <option value="">广东</option><option value="566">广西</option>
+                                    <option value="">贵州</option><option value="788">海南</option>
+                                    <option value="">河北</option><option value="998">河南</option>
+                                    <option value="">台湾</option></select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>选择城市：</td>
+                            <td>
+                                <select name="" id="cti-drive-city">
+                                    <option selected="selected" value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>选择经销商：</td>
+                            <td>
+                                <select name="" id="cti-drive-dealers">
+                                    <option selected="selected" value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <p class="cti-testdrive-hinit">您的个人资料我们会严格保密，请放心填写。稍后可能会有东风
+                                    <br> 本田厂商授权的经销商，与您进行进一步沟通。</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <a class="cti-testdrive-submit" href="javascript:;">确认提交</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 159px; height: 56px;" id="funtec">
+        <div style="width: 400px; height: 153px; opacity: 0; z-index: 1;" class="slideBox">
+            <ul style="width: 2400px; left: -2000px;" class="items">
+                <li class="" style="width: 400px; height: 153px;">
+                    <a href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_1.jpg">
+                    </a>
+                </li>
+                <li class="" style="width: 400px; height: 153px;">
+                    <a href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_2.jpg">
+                    </a>
+                </li>
+                <li class="" style="width: 400px; height: 153px;">
+                    <a href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_3.jpg">
+                    </a>
+                </li>
+                <li class="" style="width: 400px; height: 153px;">
+                    <a target="_blank" href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_4.jpg">
+                    </a>
+                </li>
+                <li class="active" style="width: 400px; height: 153px;">
+                    <a href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_5.jpg">
+                    </a>
+                </li>
+                <li class="" style="width: 400px; height: 153px;">
+                    <a href="javascript:">
+                        <img src="东风honda-哥瑞（greiz）_files/images/f_6.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <img style="opacity: 1; z-index: 8;" src="东风honda-哥瑞（greiz）_files/images/funtec_btn.png" data-src="images/funtec_btn.png" class="fr funtec_btn">
+    </div>
+    <!--// funtec end -->
+    <!-- 预约试驾 -->
+    <script src="东风honda-哥瑞（greiz）_files/jquery-1.js"></script>
+    <script src="东风honda-哥瑞（greiz）_files/idangerous.js"></script>
+    <script src="东风honda-哥瑞（greiz）_files/dc_002.js"></script>
+    <script src="东风honda-哥瑞（greiz）_files/index.js"></script>
+    <!--funtec-->
+    <script src="东风honda-哥瑞（greiz）_files/jquery.js"></script>
